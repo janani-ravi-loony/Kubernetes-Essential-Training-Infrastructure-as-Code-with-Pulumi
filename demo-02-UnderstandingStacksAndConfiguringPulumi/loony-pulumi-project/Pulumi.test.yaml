@@ -1,0 +1,5 @@
+config:
+  loony-pulumi-project:db_password:
+    secure: AAABAC2wycjnUlON/QJ+Uro5NMO6gO1R6jsXXWyDaS9m/gmdFX9HV/iXFg==
+  loony-pulumi-project:num_nodes: "4"
+  loony-pulumi-project:region: asia-south-1

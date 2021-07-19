@@ -1,0 +1,3 @@
+config:
+  loony-pulumi-project:image: simple-web-server
+  loony-pulumi-project:version: v1

@@ -1,0 +1,33 @@
+{
+    "version": 3,
+    "deployment": {
+        "manifest": {
+            "time": "2021-06-28T09:36:44.394595+05:30",
+            "magic": "05895a2c9dacfccf7a3d4872870655fade8b616f5ae5ba4d37ca3f2e46795cf0",
+            "version": "v3.5.1"
+        },
+        "secrets_providers": {
+            "type": "service",
+            "state": {
+                "url": "https://api.pulumi.com",
+                "owner": "clouduser",
+                "project": "loony-pulumi-project",
+                "stack": "dev"
+            }
+        },
+        "resources": [
+            {
+                "urn": "urn:pulumi:dev::loony-pulumi-project::pulumi:pulumi:Stack::loony-pulumi-project-dev",
+                "custom": false,
+                "type": "pulumi:pulumi:Stack",
+                "outputs": {
+                    "bucket_details": {
+                        "files": 3,
+                        "url": "s3://loony-dev-bucket"
+                    },
+                    "lb_external_ip": "356.23.56.01"
+                }
+            }
+        ]
+    }
+}

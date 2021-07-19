@@ -1,0 +1,4 @@
+config:
+  loony-pulumi-project:image: simple-web-server
+  loony-pulumi-project:port: "8000"
+  loony-pulumi-project:version: v2
